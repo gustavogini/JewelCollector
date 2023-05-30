@@ -113,7 +113,7 @@ public class Map
         }
     }
 }
-
+//Outra alteração realizada por Vinicius Augusto Marques
 public class JewelCollector
 {
     public static void Main()
@@ -204,6 +204,5 @@ public class JewelCollector
         } while (running);
     }
 }
-
 
 
