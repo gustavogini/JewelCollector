@@ -8,7 +8,7 @@ public interface ICell
 
 public class Jewel : ICell
 {
-    public enum JewelType { Red = 100, Green = 50, Blue = 10 };
+    public enum JewelType { Red = 80, Green = 50, Blue = 10 };// Outra alteração realizada por Byron Conflicto red 100 mudado a 80
     public JewelType Type { get; set; }
 
     public Jewel(JewelType type) => Type = type;
