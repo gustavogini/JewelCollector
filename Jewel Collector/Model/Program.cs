@@ -8,7 +8,9 @@ public interface ICell
 
 public class Jewel : ICell
 {
+
     public enum JewelType { Red = 80, Green = 50, Blue = 10 };// Outra alteração realizada por Byron Conflicto red 100 mudado a 80
+
     public JewelType Type { get; set; }
 
     public Jewel(JewelType type) => Type = type;
@@ -19,7 +21,7 @@ public class Jewel : ICell
         JewelType.Red => "JR",
         JewelType.Green => "JG",
         JewelType.Blue => "JB",
-        _ => throw new NotImplementedException()
+        _ => throw new NotImplementedException() // Alteração realizada por Gustavo Gini
     });
 }
 
@@ -35,7 +37,7 @@ public class Obstacle : ICell
     {
         ObstacleType.Water => "##",
         ObstacleType.Tree => "$$",
-        _ => throw new NotImplementedException()
+        _ => throw new NotImplementedException() //Outra alteração realizada por Gustavo Gini
     });
 }
 
