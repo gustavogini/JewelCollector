@@ -35,7 +35,7 @@ public class Obstacle : ICell
     {
         ObstacleType.Water => "##",
         ObstacleType.Tree => "$$",
-        _ => throw new NotImplementedException()
+        _ => throw new NotImplementedException() //Outra alteração realizada por Gustavo Gini
     });
 }
 
