@@ -8,7 +8,7 @@ public interface ICell
 
 public class Jewel : ICell
 {
-    public enum JewelType { Red = 100, Green = 50, Blue = 10 };
+    public enum JewelType { Red = 60, Green = 50, Blue = 10 };
     public JewelType Type { get; set; }
 
     public Jewel(JewelType type) => Type = type;
