@@ -19,7 +19,7 @@ public class Jewel : ICell
         JewelType.Red => "JR",
         JewelType.Green => "JG",
         JewelType.Blue => "JB",
-        _ => throw new NotImplementedException()
+        _ => throw new NotImplementedException() // Alteração realizada por Gustavo Gini
     });
 }
 
